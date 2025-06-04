@@ -1,0 +1,6 @@
+import base64
+msg = "Just enjoy life"
+e = base64.b64encode(msg.encode())
+print(e)
+d = base64.b64decode(e)
+print(d.decode())
